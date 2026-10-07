@@ -1,0 +1,217 @@
+<!doctype html><html lang="kk"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Interrogative & Negative Pronouns | MAGIST.PRO</title><style>
+*{box-sizing:border-box}:root{--navy:#0d2948;--navy2:#123f73;--ink:#172033;--paper:#f6f8fb;--gold:#c6a15b;--line:#dce3ea;--muted:#667386;--soft:#edf3f8;--warm:#fff8e9}
+html{scroll-behavior:smooth}body{margin:0;background:var(--paper);color:var(--ink);font:17px/1.68 Arial,Helvetica,sans-serif}
+header{max-width:none;margin:0;padding:76px max(24px,calc((100vw - 1000px)/2));background:linear-gradient(135deg,#0a223d,#123f73);color:white;position:relative;overflow:hidden}
+header:after{content:"";position:absolute;width:360px;height:360px;border:1px solid #ffffff1f;border-radius:50%;right:-90px;top:-120px;box-shadow:0 0 0 70px #ffffff08,0 0 0 140px #ffffff05}
+header .k{color:#e4c886;position:relative;z-index:1}.k,.n{font-weight:900;letter-spacing:.14em;text-transform:uppercase;font-size:12px}.n{color:#9a762d}
+header h1{font:700 clamp(48px,7.5vw,82px)/.96 Georgia,serif;color:white;max-width:900px;margin:15px 0 20px;position:relative;z-index:1}header p{font-size:20px;color:#e8eef5;position:relative;z-index:1}
+main{max-width:1000px;margin:auto;padding:34px 22px 90px}h2,h3{font-family:Georgia,serif;color:var(--navy)}h2{font-size:clamp(29px,4vw,39px);line-height:1.1;margin:8px 0 20px}h3{font-size:25px;margin-top:28px}
+section{background:#fff;border:1px solid var(--line);border-top:4px solid var(--navy);border-radius:16px;padding:34px;margin:26px 0;box-shadow:0 7px 24px #18324d0a;scroll-margin-top:82px}
+.rule,.note{padding:17px 19px;border-radius:10px;margin:17px 0}.rule{background:var(--soft);border-left:4px solid var(--navy2)}.note{background:var(--warm);border-left:4px solid var(--gold)}
+.ex{background:#fbfcfe;border:1px solid var(--line);border-radius:10px;padding:14px 16px;margin:9px 0}.en{font-weight:800;color:var(--navy)}.kz{color:var(--muted);margin-top:3px}
+table{width:100%;border-collapse:separate;border-spacing:0;margin:18px 0;background:#fff;border:1px solid var(--line);border-radius:11px;overflow:hidden}th,td{padding:13px 14px;text-align:left;vertical-align:top;border-right:1px solid var(--line);border-bottom:1px solid var(--line)}th:last-child,td:last-child{border-right:0}tr:last-child td,tr:last-child th{border-bottom:0}th{background:var(--soft);color:var(--navy)}
+.test{margin-top:22px;padding:21px;border:1px solid #d8e0e8;border-radius:12px;background:#f9fbfd}.q{font-weight:850;font-size:19px;color:#1a2d43}.opt{background:#fff;border:1px solid #d9e0e7;padding:10px 13px;margin:7px 0;border-radius:8px;cursor:pointer;transition:.15s}.opt:hover{border-color:#91a3b7;transform:translateX(2px)}
+details{margin-top:12px}summary{cursor:pointer;display:inline-block;background:var(--navy);color:white;border-radius:8px;padding:9px 13px;font-weight:800}.ans{padding:15px;background:#edf5ea;border-radius:8px;margin-top:10px}
+.academic-nav{position:sticky;top:0;z-index:8000;background:#ffffffef;border-bottom:1px solid var(--line);backdrop-filter:blur(12px);overflow-x:auto;white-space:nowrap;padding:10px max(18px,calc((100vw - 1000px)/2))}.academic-nav a{display:inline-block;text-decoration:none;color:var(--navy);font-size:12px;font-weight:900;padding:8px 9px;border-radius:7px}.academic-nav a:hover{background:var(--soft)}
+.exam-map,.compare{border-top-color:var(--gold)}.mapgrid{display:grid;grid-template-columns:repeat(2,1fr);gap:10px}.mapitem{background:#f8fafc;border:1px solid var(--line);border-radius:9px;padding:13px}.mapitem b{color:var(--navy)}
+.review{border-top-color:var(--gold)}.reviewq .opt.selected{outline:2px solid var(--gold);background:#fffaf0}.reviewq .opt.correct{background:#e6f2e3;border-color:#6d9b68;outline:none}.reviewq .opt.wrong{background:#fae7e3;border-color:#c47770;outline:none}
+.resultBtn{border:0;background:var(--navy);color:white;padding:14px 20px;border-radius:9px;font-weight:900;font-size:16px;cursor:pointer;margin-top:22px}.score{display:none;background:var(--navy);color:white;padding:18px;border-radius:10px;margin-top:13px;font-size:20px;font-weight:900}.score.show{display:block}
+#studyCanvas{position:absolute;left:0;top:0;z-index:9000;pointer-events:none;overflow:visible}#studyTools{position:fixed;right:18px;bottom:18px;z-index:9999;display:flex;flex-direction:column;gap:7px;padding:8px;background:#ffffffed;border:1px solid #d6dee7;border-radius:14px;box-shadow:0 12px 32px #102b4c2b;backdrop-filter:blur(10px)}#studyTools button{width:46px;height:42px;border:1px solid #d8e0e8;background:white;border-radius:9px;cursor:pointer;font-weight:900;color:var(--navy)}#studyTools button.active{background:var(--navy);color:white}
+#notesPanel{position:fixed;right:82px;bottom:18px;z-index:9998;width:min(330px,calc(100vw - 110px));display:none;background:#fff;border:1px solid #d6dee7;border-radius:14px;padding:13px;box-shadow:0 12px 32px #102b4c2b}#notesPanel.show{display:block}#notesPanel textarea{width:100%;height:180px;margin-top:8px;border:1px solid #d8e0e8;border-radius:9px;padding:11px}
+@media(max-width:700px){header{padding-top:55px;padding-bottom:55px}header p{font-size:17px}main{padding:22px 14px 80px}section{padding:22px 18px}.mapgrid{grid-template-columns:1fr}table{font-size:13px}th,td{padding:9px}#studyTools{right:10px;bottom:10px}#notesPanel{right:68px;bottom:10px}}
+
+html.study-lock,body.study-lock{overscroll-behavior:none!important;scroll-behavior:auto!important}
+body.study-lock{touch-action:none!important}
+body.study-lock #studyCanvas{touch-action:none!important;-webkit-user-select:none!important;user-select:none!important;-webkit-touch-callout:none!important}
+</style></head><body>
+<header><div class="k">KT ENGLISH GRAMMAR · MAGIST.PRO</div><h1>Interrogative &<br>Negative Pronouns</h1><p>Сұрау есімдіктері және болымсыз есімдіктер</p></header><nav class="academic-nav"><a href="#map">EXAM MAP</a><a href="#interrogative">INTERROGATIVE</a><a href="#who">WHO</a><a href="#whom">WHOM</a><a href="#whose">WHOSE</a><a href="#what">WHAT</a><a href="#which">WHICH</a><a href="#structure">STRUCTURE</a><a href="#negative">NEGATIVE</a><a href="#compare">COMPARE</a><a href="#review">REVIEW</a></nav><main>
+<section class="exam-map" id="map"><div class="n">5-SECOND EXAM MAP</div><h2>Қай pronoun-ды таңдаймыз?</h2><div class="mapgrid">
+<div class="mapitem"><b>Who?</b><br>адам · кім?</div><div class="mapitem"><b>Whom?</b><br>адам · object · formal</div>
+<div class="mapitem"><b>Whose?</b><br>иелік · кімнің?</div><div class="mapitem"><b>What?</b><br>зат / ақпарат · ашық таңдау</div>
+<div class="mapitem"><b>Which?</b><br>шектеулі нұсқалар арасынан таңдау</div><div class="mapitem"><b>Negative</b><br>nobody · nothing · none · neither</div>
+</div><div class="note"><b>Subject question:</b> Who called? / What happened? → do/does/did жоқ.<br><b>Object question:</b> Who did you call? / What did she buy? → auxiliary қолданылады.</div></section><section id="interrogative"><div class="n">01 · INTERROGATIVE PRONOUNS</div><h2>Interrogative Pronouns деген не?</h2>
+<p><b>Interrogative Pronouns — сұрау есімдіктері.</b> Олар адамды, затты, ақпаратты, иелікті немесе белгілі нұсқалардың арасынан таңдауды сұрау үшін қолданылады.</p>
+<div class="rule"><b>Негізгі сұрақ:</b><br>
+Адамды сұраймыз → <b>who / whom</b><br>
+Иесін сұраймыз → <b>whose</b><br>
+Зат немесе ақпаратты сұраймыз → <b>what</b><br>
+Белгілі нұсқалардың арасынан таңдаймыз → <b>which</b></div>
+<p>Бұл сөздер сөйлемде әртүрлі қызмет атқара алады. Ең маңыздысы — сұрау сөзі <b>subject</b> пе, әлде <b>object</b> пе екенін анықтау. Осыған байланысты <b>do / does / did</b> керек пе, жоқ па — соны шешеміз.</p>
+<table><tr><th>Сөз</th><th>Қазақша</th><th>Не туралы?</th></tr><tr><td><b>who?</b></td><td>кім?</td><td>адам</td></tr><tr><td><b>whom?</b></td><td>кімді? кімге?</td><td>адам — object, formal</td></tr><tr><td><b>whose?</b></td><td>кімнің? кімдікі?</td><td>иелік</td></tr><tr><td><b>what?</b></td><td>не? қандай?</td><td>зат/ақпарат</td></tr><tr><td><b>which?</b></td><td>қайсысы? қай?</td><td>белгілі нұсқалардың ішінен таңдау</td></tr></table>
+<div class="note"><b>Relative-пен шатастырма:</b> <b>Who is she?</b> — сұрақ. <b>The woman who called me...</b> — who бұл жерде байланыстырушы relative pronoun.</div></section>
+
+<section id="who"><div class="n">02 · WHO</div><h2>WHO — кім?</h2>
+<p><b>Who</b> адам туралы сұрағанда қолданылады. Қазақша негізгі мағынасы — <b>кім?</b> Бірақ сөйлем құрылымы who-дың subject немесе object болуына байланысты өзгереді.</p>
+<h3>1. WHO = Subject — әрекетті кім жасады?</h3>
+<p>Егер біз <b>әрекетті жасаған адамның кім екенін</b> білмесек, <b>who</b> сол адамның орнына тұрады және өзі subject болады.</p>
+<div class="rule"><b>WHO + VERB + ... ?</b><br><br>
+Бұл жағдайда <b>do / does / did қойылмайды</b>, өйткені who өзі subject.<br><br>
+Someone called you. → <b>Who called you?</b><br>
+Someone lives here. → <b>Who lives here?</b></div>
+<div class="rule"><b>WHO + VERB + ...?</b></div>
+<div class="ex"><div class="en">Who called you?</div><div class="kz">Саған кім қоңырау шалды?</div></div><div class="ex"><div class="en">Who lives here?</div><div class="kz">Мұнда кім тұрады?</div></div><div class="ex"><div class="en">Who wants coffee?</div><div class="kz">Кім кофе қалайды?</div></div>
+<div class="note">❌ Who did call you? (кәдімгі бейтарап сұрақта)<br>✅ <b>Who called you?</b></div>
+<h3>2. WHO = Object — әрекет кімге бағытталды?</h3>
+<p>Егер әрекетті <b>басқа адам жасаса</b>, ал біз сол әрекет бағытталған адамды сұрасақ, who = object болады. Мұнда subject сөйлемде бар, сондықтан кәдімгі сұраулы сөйлем құрылымы қолданылады.</p>
+<div class="rule"><b>Present Simple:</b> WHO + DO/DOES + SUBJECT + V1?<br>
+<b>Past Simple:</b> WHO + DID + SUBJECT + V1?<br><br>
+You called someone. → <b>Who did you call?</b><br>
+She knows someone. → <b>Who does she know?</b></div>
+<div class="note"><b>Салыстыр:</b><br>
+<b>Who called you?</b> → кім қоңырау шалды? → who = subject → did жоқ.<br>
+<b>Who did you call?</b> → сен кімге қоңырау шалдың? → you = subject, who = object → did бар.</div>
+<div class="ex"><div class="en">Who did you call?</div><div class="kz">Сен кімге қоңырау шалдың?</div></div><div class="ex"><div class="en">Who does she know?</div><div class="kz">Ол кімді таниды?</div></div>
+<div class="test"><div class="n">TEST 01</div><p class="q">___ opened the door?</p><div class="opt">A) Who did</div><div class="opt">B) Who</div><div class="opt">C) Whom did</div><div class="opt">D) Which did</div><details><summary>Жауабы мен талдауы</summary><div class="ans"><b>B) Who.</b><br><b>Не тексеріледі:</b> subject question.<br><b>Ереже:</b> who өзі әрекетті жасаушы болса, do/does/did қажет емес: <b>Who opened...?</b></div></details></div></section>
+
+<section id="whom"><div class="n">03 · WHOM</div><h2>WHOM — кімді? кімге?</h2>
+<p><b>Whom</b> адам туралы сұрайды, бірақ ол адам әрекетті орындаушы емес, <b>object</b> болғанда қолданылады. Қазақша контекстке қарай <b>кімді? кімге? кіммен?</b> деп аударылады.</p>
+<div class="rule"><b>WHO = subject болуы мүмкін.</b><br><b>WHOM = object.</b><br><br>
+He called <b>her</b>. → Whom did he call?<br>
+You spoke to <b>him</b>. → To whom did you speak?</div>
+<p>Қазіргі күнделікті ағылшын тілінде object position-да <b>whom</b> орнына <b>who</b> өте жиі қолданылады. Бірақ тестте немесе formal grammar-да, әсіресе preposition сұрау сөзінің алдында тұрса, <b>whom</b> маңызды.</p>
+<div class="ex"><div class="en">Whom did you meet?</div><div class="kz">Сен кімді кездестірдің?</div></div><div class="ex"><div class="en">Who did you meet?</div><div class="kz">Сен кімді кездестірдің? (күнделікті қолданыс)</div></div><div class="ex"><div class="en">To whom were you speaking?</div><div class="kz">Сіз кіммен сөйлесіп тұрдыңыз?</div></div>
+<div class="rule">Formal: <b>preposition + whom</b><br>Everyday: <b>Who ... + preposition?</b><br>To whom did you speak? = Who did you speak to?</div>
+<div class="test"><div class="n">TEST 02</div><p class="q">To ___ did you send the letter?</p><div class="opt">A) who</div><div class="opt">B) whom</div><div class="opt">C) whose</div><div class="opt">D) which</div><details><summary>Жауабы мен талдауы</summary><div class="ans"><b>B) whom.</b> Preposition <b>to</b> тікелей алдында тұр, сондықтан formal object form — <b>whom</b>.</div></details></div></section>
+
+<section id="whose"><div class="n">04 · WHOSE</div><h2>WHOSE — кімнің? кімдікі?</h2>
+<p><b>Whose</b> бір заттың немесе нәрсенің <b>кімге тиесілі екенін</b> сұрайды. Қазақша: <b>кімнің? кімдікі?</b></p>
+<h3>1. Whose + noun</h3>
+<p>Егер заттың атауын да айтсақ, whose сол noun-ның алдында тұрады.</p>
+<div class="rule"><b>WHOSE + NOUN + ... ?</b><br>
+Whose <b>bag</b> is this?<br>
+Whose <b>phone</b> are you using?</div>
+<h3>2. Whose — noun-сыз</h3>
+<p>Егер қандай зат туралы айтылып тұрғаны контекстен белгілі болса, noun-ды қайталамаймыз.</p>
+<div class="rule"><b>WHOSE + BE + ... ?</b><br>Whose are these keys? → Бұл кілттер кімдікі?</div>
+<div class="rule"><b>Whose + noun + ...?</b><br><b>Whose + be + ...?</b></div>
+<div class="ex"><div class="en">Whose bag is this?</div><div class="kz">Бұл кімнің сөмкесі?</div></div><div class="ex"><div class="en">Whose are these keys?</div><div class="kz">Бұл кілттер кімдікі?</div></div><div class="ex"><div class="en">Whose phone are you using?</div><div class="kz">Сен кімнің телефонын қолданып отырсың?</div></div>
+<div class="test"><div class="n">TEST 03</div><p class="q">___ coat is this?</p><div class="opt">A) Who</div><div class="opt">B) Whom</div><div class="opt">C) Whose</div><div class="opt">D) What</div><details><summary>Жауабы мен талдауы</summary><div class="ans"><b>C) Whose.</b> Coat-тың иесін сұрап тұрмыз: <b>Whose coat...?</b></div></details></div></section>
+
+<section id="what"><div class="n">05 · WHAT</div><h2>WHAT — не? қандай?</h2>
+<p><b>What</b> затты, нәрсені, әрекетті немесе ақпаратты сұрағанда қолданылады. Қазақша контекстке қарай <b>не? қандай?</b> деп аударылады.</p>
+<div class="rule"><b>WHAT — таңдау алдын ала шектелмеген кезде де қолданылады.</b><br>
+What do you want? → Не қалайсың?<br>
+What language do you speak? → Қай/қандай тілде сөйлейсің?</div>
+<h3>1. WHAT = Subject</h3>
+<p>Егер what әрекеттің не болғанын немесе не нәрсе әрекет жасағанын сұраса, what = subject. Бұл жағдайда do/does/did қолданылмайды.</p>
+<div class="rule"><b>WHAT + VERB ... ?</b><br>What happened?<br>What caused the problem?</div>
+<h3>2. WHAT = Object</h3>
+<p>Егер сөйлемде басқа subject болса, what object болады және шаққа сәйкес auxiliary қолданылады.</p>
+<div class="rule"><b>WHAT + DO/DOES/DID + SUBJECT + V1?</b><br>
+What do you want?<br>
+What did she buy?</div>
+<div class="ex"><div class="en">What happened?</div><div class="kz">Не болды?</div></div><div class="ex"><div class="en">What do you want?</div><div class="kz">Сен не қалайсың?</div></div><div class="ex"><div class="en">What language do you speak?</div><div class="kz">Сен қай тілде сөйлейсің?</div></div>
+<h3>What = subject vs object</h3><div class="rule"><b>What happened?</b> → what = subject → auxiliary жоқ.<br><b>What did you buy?</b> → you = subject, what = object → did қолданылады.</div>
+<div class="test"><div class="n">TEST 04</div><p class="q">___ happened after the meeting?</p><div class="opt">A) What did</div><div class="opt">B) What</div><div class="opt">C) Which did</div><div class="opt">D) Whom</div><details><summary>Жауабы мен талдауы</summary><div class="ans"><b>B) What.</b> What өзі happened етістігінің subject-і. Сондықтан <b>did</b> қойылмайды.</div></details></div></section>
+
+<section id="which"><div class="n">06 · WHICH</div><h2>WHICH — қайсысы? қай?</h2>
+<p><b>Which</b> бірнеше <b>белгілі немесе шектеулі нұсқаның арасынан</b> біреуін/бірнешеуін таңдағанда қолданылады. Қазақша: <b>қайсысы? қай?</b></p>
+<div class="rule"><b>WHICH + noun</b> → Which dress? Which course?<br>
+<b>WHICH</b> noun-сыз → Which is yours? Which do you prefer?</div>
+<h3>WHAT пен WHICH айырмашылығы</h3>
+<p><b>What</b> — жауап нұсқалары ашық. <b>Which</b> — таңдау белгілі бір топпен немесе берілген нұсқалармен шектелген.</p>
+<div class="note"><b>What would you like to drink?</b> → кез келген сусын болуы мүмкін.<br>
+<b>Which would you like, tea or coffee?</b> → екі нақты нұсқаның бірін таңдаймыз.</div>
+<div class="ex"><div class="en">Which do you prefer, tea or coffee?</div><div class="kz">Қайсысын қалайсың: шай ма, кофе ме?</div></div><div class="ex"><div class="en">Which dress do you want?</div><div class="kz">Қай көйлекті қалайсың?</div></div><div class="ex"><div class="en">Which one is yours?</div><div class="kz">Қайсысы сенікі?</div></div>
+<h3>WHAT vs WHICH</h3><div class="rule"><b>What</b> → таңдау ашық, нақты шектелмеген.<br><b>Which</b> → белгілі нұсқалардың ішінен таңдау.</div>
+<div class="ex"><div class="en">What would you like to drink?</div><div class="kz">Не ішкің келеді? (ашық таңдау)</div></div><div class="ex"><div class="en">Which would you like, tea or coffee?</div><div class="kz">Қайсысын қалайсың: шай ма, кофе ме? (екі нұсқа берілген)</div></div>
+<div class="test"><div class="n">TEST 05</div><p class="q">___ of these two bags do you prefer?</p><div class="opt">A) What</div><div class="opt">B) Which</div><div class="opt">C) Who</div><div class="opt">D) Whose</div><details><summary>Жауабы мен талдауы</summary><div class="ans"><b>B) Which.</b> <b>these two bags</b> — таңдау шектеулі. Сондықтан which.</div></details></div></section>
+
+<section id="structure"><div class="n">07 · QUESTION STRUCTURE</div><h2>Interrogative Pronoun бар сұрақ қалай құрылады?</h2>
+<p>Сұрақтың құрылымын таңдағанда ең алдымен сұрау сөзі <b>subject пе, object пе</b> екенін анықта. Содан кейін шаққа және негізгі етістікке қарай auxiliary таңдалады.</p>
+<div class="rule"><b>SUBJECT QUESTION:</b><br>Who/What + verb...? → do/does/did жоқ.<br><br>
+<b>OBJECT QUESTION:</b><br>Wh-word + auxiliary + subject + verb...?<br><br>
+<b>TO BE:</b><br>Wh-word + am/is/are/was/were + ...?<br><br>
+<b>MODAL:</b><br>Wh-word + can/could/will/should... + subject + V1?</div>
+<table><tr><th>Жағдай</th><th>Формула</th><th>Мысал</th></tr>
+<tr><td>Wh-word = subject</td><td><b>Who/What + verb?</b></td><td>Who called you?</td></tr>
+<tr><td>Present Simple object</td><td><b>Wh-word + do/does + subject + V1?</b></td><td>Who do you know?</td></tr>
+<tr><td>Past Simple object</td><td><b>Wh-word + did + subject + V1?</b></td><td>What did she buy?</td></tr>
+<tr><td>to be</td><td><b>Wh-word + am/is/are + subject?</b></td><td>Who is she?</td></tr>
+<tr><td>modal</td><td><b>Wh-word + modal + subject + V1?</b></td><td>What can I do?</td></tr></table>
+<div class="note"><b>Назар аудар:</b> бұл бөлім Interrogative Pronouns-ды дұрыс қолдану үшін қажет. Yes/No, alternative <b>or</b>, tag questions сияқты барлық question types кейін өздерінің жеке тақырыбында толық қарастырылады.</div>
+<div class="test"><div class="n">TEST 06</div><p class="q">Who ___ you see yesterday?</p><div class="opt">A) do</div><div class="opt">B) does</div><div class="opt">C) did</div><div class="opt">D) was</div><details><summary>Жауабы мен талдауы</summary><div class="ans"><b>C) did.</b> Yesterday → Past Simple; you = subject, who = object → <b>Who did you see?</b></div></details></div></section>
+
+<section id="negative"><div class="n">08 · NEGATIVE PRONOUNS</div><h2>Negative Pronouns — болымсыз есімдіктер</h2>
+<p><b>Negative Pronouns</b> — өздерінің ішінде <b>жоқ / еш-</b> деген болымсыз мағынасы бар есімдіктер. Сондықтан олар қолданылған сөйлемде етістікке қайтадан <b>not</b> қосудың қажеті жоқ.</p>
+<div class="rule"><b>Negative pronoun + affirmative verb</b><br>
+Nobody <b>came</b>. ✅<br>
+Nothing <b>happened</b>. ✅<br><br>
+❌ Nobody didn't come.<br>
+❌ Nothing didn't happen.</div>
+<p>Негізгі сөздер: <b>no one / nobody</b> — адам; <b>nothing</b> — зат/нәрсе; <b>none</b> — топтың ешқайсысы; <b>neither</b> — екі нұсқаның ешқайсысы.</p>
+<table><tr><th>Сөз</th><th>Қазақша</th><th>Қолданыс</th></tr><tr><td><b>no one / nobody</b></td><td>ешкім</td><td>адам</td></tr><tr><td><b>nothing</b></td><td>ештеңе</td><td>зат/нәрсе</td></tr><tr><td><b>none</b></td><td>ешқайсысы / бірде-бірі</td><td>адам/зат тобы</td></tr><tr><td><b>neither</b></td><td>екеуінің де ешқайсысы</td><td>екі адам/зат</td></tr></table>
+<div class="note"><b>Ең маңызды ереже:</b> English-де standard grammar бойынша double negative қолданылмайды.<br>✅ Nobody came.<br>❌ Nobody didn't come.</div></section>
+
+<section id="nobody"><div class="n">09 · NO ONE / NOBODY</div><h2>NO ONE / NOBODY — ешкім</h2>
+<p><b>No one</b> және <b>nobody</b> мағынасы жағынан бірдей: <b>ешкім</b>. Екеуі де тек <b>адамдарға</b> қатысты қолданылады.</p>
+<div class="rule"><b>NO ONE / NOBODY + affirmative verb</b><br>
+Nobody knows. → Ешкім білмейді.<br>
+No one came. → Ешкім келмеді.</div>
+<p>Қазақша аударғанда етістік болымсыз болып көрінеді: «ешкім <b>келмеді</b>». Бірақ ағылшын тілінде negative мағына <b>nobody/no one</b> сөзінің ішінде бар, сондықтан verb affirmative формада қалады.</p>
+<div class="note"><b>No one</b> екі сөзбен жазылады. <b>Nobody</b> бір сөзбен жазылады. Мағынасы бірдей.</div>
+<div class="ex"><div class="en">Nobody knows the answer.</div><div class="kz">Жауапты ешкім білмейді.</div></div><div class="ex"><div class="en">No one called me.</div><div class="kz">Маған ешкім қоңырау шалмады.</div></div>
+<div class="rule"><b>Nobody/No one + affirmative verb</b><br>Nobody <b>came</b>. = <b>Not anyone</b> came / There wasn't anyone.</div>
+<div class="test"><div class="n">TEST 07</div><p class="q">___ knows where he is.</p><div class="opt">A) Nobody</div><div class="opt">B) Nobody doesn't</div><div class="opt">C) Anybody doesn't</div><div class="opt">D) Nothing</div><details><summary>Жауабы мен талдауы</summary><div class="ans"><b>A) Nobody.</b> Адам туралы айтылған және nobody өзі negative. Сондықтан екінші not қажет емес.</div></details></div></section>
+
+<section id="nothing"><div class="n">10 · NOTHING</div><h2>NOTHING — ештеңе</h2>
+<p><b>Nothing</b> адамға емес, <b>затқа, нәрсеге, оқиғаға немесе ақпаратқа</b> қатысты қолданылады. Қазақша — <b>ештеңе</b>.</p>
+<div class="rule"><b>NOTHING + affirmative verb</b><br>Nothing happened. → Ештеңе болған жоқ.<br><br>
+<b>subject + affirmative verb + NOTHING</b><br>I saw nothing. → Мен ештеңе көрмедім.</div><div class="ex"><div class="en">Nothing happened.</div><div class="kz">Ештеңе болған жоқ.</div></div><div class="ex"><div class="en">I said nothing.</div><div class="kz">Мен ештеңе айтпадым.</div></div>
+<div class="rule"><b>Екі дұрыс модель:</b><br><br><b>1. Negative pronoun + affirmative verb</b><br>I saw <b>nothing</b>. ✅<br><br><b>2. Negative verb + any-compound</b><br>I <b>didn’t see anything</b>. ✅<br><br><b>Double negative қолданбаймыз:</b><br>I didn’t see nothing. ❌</div>
+<div class="note">Екі дұрыс модельді есте сақта:<br>✅ I <b>saw nothing</b>.<br>✅ I <b>didn't see anything</b>.<br>❌ I <b>didn't see nothing</b>.</div>
+<div class="test"><div class="n">TEST 08</div><p class="q">She said ___ about the problem.</p><div class="opt">A) nothing</div><div class="opt">B) didn't nothing</div><div class="opt">C) nobody</div><div class="opt">D) no one</div><details><summary>Жауабы мен талдауы</summary><div class="ans"><b>A) nothing.</b> Нәрсе/ақпарат туралы; said affirmative болып қалады.</div></details></div></section>
+
+<section id="none"><div class="n">11 · NONE</div><h2>NONE — ешқайсысы</h2>
+<p><b>None</b> белгілі бір <b>топтың бірде-бір мүшесі немесе бөлігі жоқ</b> екенін білдіреді. Ол адамға да, затқа да қатысты болуы мүмкін.</p>
+<div class="rule"><b>NONE</b> — жеке тұра алады:<br>How many are correct? — <b>None.</b><br><br>
+<b>NONE OF + pronoun</b><br>none of us · none of you · none of them<br><br>
+<b>NONE OF + determiner + plural noun</b><br>none of these books · none of my friends</div>
+<div class="note"><b>Nobody</b> = ешкім, жалпы адам туралы.<br><b>None</b> = белгілі топтың ешқайсысы.<br><br>Nobody called. → Ешкім қоңырау шалмады.<br>None of my friends called. → Достарымның ешқайсысы қоңырау шалмады.</div>
+<div class="ex"><div class="en">I invited five people, but none came.</div><div class="kz">Мен бес адамды шақырдым, бірақ ешқайсысы келмеді.</div></div><div class="ex"><div class="en">None of them knew the answer.</div><div class="kz">Олардың ешқайсысы жауапты білмеді.</div></div><div class="ex"><div class="en">None of these books is mine.</div><div class="kz">Бұл кітаптардың ешқайсысы менікі емес.</div></div>
+<div class="test"><div class="n">TEST 09</div><p class="q">How many of these answers are correct? — ___.</p><div class="opt">A) No one</div><div class="opt">B) Nobody</div><div class="opt">C) None</div><div class="opt">D) Nothing</div><details><summary>Жауабы мен талдауы</summary><div class="ans"><b>C) None.</b> Белгілі жауаптар тобының ешқайсысы деген мағынада <b>none</b>.</div></details></div></section>
+
+<section id="neither"><div class="n">12 · NEITHER</div><h2>NEITHER — екеуінің де ешқайсысы</h2>
+<p><b>Neither</b> тек <b>екі</b> адам, зат немесе нұсқа болғанда қолданылады және «екеуінің де ешқайсысы» деген мағына береді.</p>
+<div class="rule"><b>NEITHER</b> — жеке:<br>Which one do you want? — Neither.<br><br>
+<b>NEITHER OF + plural pronoun/noun phrase</b><br>Neither of them...<br>Neither of the two answers...</div>
+<div class="note"><b>Екі нұсқа → neither.</b><br><b>Үш немесе одан көп/жалпы топ → none.</b><br><br>
+Neither of the two answers is correct.<br>None of the five answers is correct.</div>
+<div class="ex"><div class="en">Neither of them is ready.</div><div class="kz">Екеуінің де ешқайсысы дайын емес.</div></div><div class="ex"><div class="en">Which dress do you want? — Neither.</div><div class="kz">Қай көйлекті қалайсың? — Екеуін де қаламаймын.</div></div>
+<div class="rule"><b>neither of + plural pronoun/noun phrase</b><br>Neither of them... / Neither of the answers...</div>
+<div class="note"><b>None vs Neither:</b><br><b>neither</b> → екі нұсқаның ешқайсысы.<br><b>none</b> → топтың ешқайсысы.</div>
+<div class="test"><div class="n">TEST 10</div><p class="q">There are two options, but ___ is suitable.</p><div class="opt">A) nothing</div><div class="opt">B) neither</div><div class="opt">C) nobody</div><div class="opt">D) no one</div><details><summary>Жауабы мен талдауы</summary><div class="ans"><b>B) neither.</b> Нақты екі option берілген.</div></details></div></section>
+
+<section class="compare" id="compare"><div class="n">NEGATIVE PRONOUNS · COMPARE</div><h2>Қайсысын қашан қолданамыз?</h2>
+<table><tr><th>Мағына</th><th>Pronoun</th><th>Мысал</th></tr>
+<tr><td>Ешкім · адам</td><td><b>no one / nobody</b></td><td>Nobody called.</td></tr>
+<tr><td>Ештеңе · зат/нәрсе</td><td><b>nothing</b></td><td>Nothing happened.</td></tr>
+<tr><td>Топтың ешқайсысы</td><td><b>none</b></td><td>None of them came.</td></tr>
+<tr><td>Екі нұсқаның ешқайсысы</td><td><b>neither</b></td><td>Neither is correct.</td></tr></table>
+<div class="rule"><b>Есте сақта:</b> negative pronoun бар болса, verb-ке қайтадан <i>not</i> қоспаймыз.<br>Nobody came. ✅ &nbsp; Nobody didn’t come. ❌</div></section><section id="equiv"><div class="n">13 · NEGATIVE EQUIVALENTS</div><h2>Negative pronoun vs not + any</h2>
+<table><tr><th>Negative pronoun</th><th>not + any form</th></tr><tr><td>I saw <b>nobody/no one</b>.</td><td>I didn't see <b>anybody/anyone</b>.</td></tr><tr><td>I heard <b>nothing</b>.</td><td>I didn't hear <b>anything</b>.</td></tr><tr><td>I want <b>none of them</b>.</td><td>I don't want <b>any of them</b>.</td></tr></table>
+<div class="note"><b>Бір сөйлемде екі negative модельді араластырма:</b><br><br>✅ <b>Nobody answered.</b> — negative pronoun + affirmative verb<br>✅ <b>I didn’t see anybody.</b> — negative verb + any-compound<br>❌ <b>Nobody didn’t answer.</b><br>❌ <b>I didn’t see nobody.</b></div></section>
+
+<section class="review" id="review"><div class="n">FINAL REVIEW · 20 QUESTIONS</div><h2>Interrogative & Negative Pronouns · Exam Practice</h2><div class="test reviewq" data-answer="A"><div class="n">REVIEW 01</div><p class="q">___ called you last night?</p><div class="opt" data-letter="A">A) Who</div><div class="opt" data-letter="B">B) Who did</div><div class="opt" data-letter="C">C) Whom did</div><div class="opt" data-letter="D">D) Which</div><div class="ans answer" style="display:none"><b>Дұрыс жауап: A) Who.</b><br>Who = subject; do/did қажет емес.</div></div><div class="test reviewq" data-answer="B"><div class="n">REVIEW 02</div><p class="q">Who ___ you call last night?</p><div class="opt" data-letter="A">A) do</div><div class="opt" data-letter="B">B) did</div><div class="opt" data-letter="C">C) was</div><div class="opt" data-letter="D">D) has</div><div class="ans answer" style="display:none"><b>Дұрыс жауап: B) did.</b><br>You = subject; who = object; Past Simple → did.</div></div><div class="test reviewq" data-answer="B"><div class="n">REVIEW 03</div><p class="q">To ___ were you talking?</p><div class="opt" data-letter="A">A) who</div><div class="opt" data-letter="B">B) whom</div><div class="opt" data-letter="C">C) whose</div><div class="opt" data-letter="D">D) what</div><div class="ans answer" style="display:none"><b>Дұрыс жауап: B) whom.</b><br>Preposition + адам, formal object → whom.</div></div><div class="test reviewq" data-answer="C"><div class="n">REVIEW 04</div><p class="q">___ keys are these?</p><div class="opt" data-letter="A">A) Who</div><div class="opt" data-letter="B">B) Whom</div><div class="opt" data-letter="C">C) Whose</div><div class="opt" data-letter="D">D) Which person</div><div class="ans answer" style="display:none"><b>Дұрыс жауап: C) Whose.</b><br>Иесін сұраймыз → whose.</div></div><div class="test reviewq" data-answer="A"><div class="n">REVIEW 05</div><p class="q">___ happened after class?</p><div class="opt" data-letter="A">A) What</div><div class="opt" data-letter="B">B) What did</div><div class="opt" data-letter="C">C) Which did</div><div class="opt" data-letter="D">D) Whom</div><div class="ans answer" style="display:none"><b>Дұрыс жауап: A) What.</b><br>What = subject; did қолданылмайды.</div></div><div class="test reviewq" data-answer="B"><div class="n">REVIEW 06</div><p class="q">___ of these three courses do you prefer?</p><div class="opt" data-letter="A">A) What</div><div class="opt" data-letter="B">B) Which</div><div class="opt" data-letter="C">C) Who</div><div class="opt" data-letter="D">D) Whose</div><div class="ans answer" style="display:none"><b>Дұрыс жауап: B) Which.</b><br>Шектеулі таңдау → which.</div></div><div class="test reviewq" data-answer="B"><div class="n">REVIEW 07</div><p class="q">___ opened the door?</p><div class="opt" data-letter="A">A) Who did</div><div class="opt" data-letter="B">B) Who</div><div class="opt" data-letter="C">C) Whom did</div><div class="opt" data-letter="D">D) Which did</div><div class="ans answer" style="display:none"><b>Дұрыс жауап: B) Who.</b><br>Әрекетті жасаушыны сұраймыз → subject question.</div></div><div class="test reviewq" data-answer="A"><div class="n">REVIEW 08</div><p class="q">___ did she buy yesterday?</p><div class="opt" data-letter="A">A) What</div><div class="opt" data-letter="B">B) What did</div><div class="opt" data-letter="C">C) Who was</div><div class="opt" data-letter="D">D) Whose did</div><div class="ans answer" style="display:none"><b>Дұрыс жауап: A) What.</b><br>She = subject, what = object; auxiliary already did.</div></div><div class="test reviewq" data-answer="C"><div class="n">REVIEW 09</div><p class="q">___ coat is this?</p><div class="opt" data-letter="A">A) Who</div><div class="opt" data-letter="B">B) Whom</div><div class="opt" data-letter="C">C) Whose</div><div class="opt" data-letter="D">D) What</div><div class="ans answer" style="display:none"><b>Дұрыс жауап: C) Whose.</b><br>Иелік → whose coat.</div></div><div class="test reviewq" data-answer="B"><div class="n">REVIEW 10</div><p class="q">___ would you like, tea or coffee?</p><div class="opt" data-letter="A">A) What</div><div class="opt" data-letter="B">B) Which</div><div class="opt" data-letter="C">C) Whom</div><div class="opt" data-letter="D">D) Whose</div><div class="ans answer" style="display:none"><b>Дұрыс жауап: B) Which.</b><br>Екі нақты нұсқа → which.</div></div><div class="test reviewq" data-answer="A"><div class="n">REVIEW 11</div><p class="q">___ knows where he is.</p><div class="opt" data-letter="A">A) Nobody</div><div class="opt" data-letter="B">B) Nobody doesn't</div><div class="opt" data-letter="C">C) Anybody doesn't</div><div class="opt" data-letter="D">D) Nothing</div><div class="ans answer" style="display:none"><b>Дұрыс жауап: A) Nobody.</b><br>Адам + ешкім → nobody; verb affirmative.</div></div><div class="test reviewq" data-answer="B"><div class="n">REVIEW 12</div><p class="q">I opened the box, but there was ___ inside.</p><div class="opt" data-letter="A">A) nobody</div><div class="opt" data-letter="B">B) nothing</div><div class="opt" data-letter="C">C) none person</div><div class="opt" data-letter="D">D) no one thing</div><div class="ans answer" style="display:none"><b>Дұрыс жауап: B) nothing.</b><br>Зат/нәрсе жоқ → nothing.</div></div><div class="test reviewq" data-answer="B"><div class="n">REVIEW 13</div><p class="q">I invited four friends, but ___ of them could come.</p><div class="opt" data-letter="A">A) neither</div><div class="opt" data-letter="B">B) none</div><div class="opt" data-letter="C">C) nothing</div><div class="opt" data-letter="D">D) no one</div><div class="ans answer" style="display:none"><b>Дұрыс жауап: B) none.</b><br>Төрт адамнан ешқайсысы → none of them.</div></div><div class="test reviewq" data-answer="B"><div class="n">REVIEW 14</div><p class="q">There are two options, but ___ is suitable.</p><div class="opt" data-letter="A">A) nothing</div><div class="opt" data-letter="B">B) neither</div><div class="opt" data-letter="C">C) nobody</div><div class="opt" data-letter="D">D) no one</div><div class="ans answer" style="display:none"><b>Дұрыс жауап: B) neither.</b><br>Нақты екі нұсқа → neither.</div></div><div class="test reviewq" data-answer="B"><div class="n">REVIEW 15</div><p class="q">Choose the correct sentence.</p><div class="opt" data-letter="A">A) Nobody didn't call me.</div><div class="opt" data-letter="B">B) Nobody called me.</div><div class="opt" data-letter="C">C) Nothing didn't happen.</div><div class="opt" data-letter="D">D) I don't know nobody.</div><div class="ans answer" style="display:none"><b>Дұрыс жауап: B) Nobody called me..</b><br>Negative pronoun + affirmative verb.</div></div><div class="test reviewq" data-answer="A"><div class="n">REVIEW 16</div><p class="q">Choose the equivalent of “I saw nobody.”</p><div class="opt" data-letter="A">A) I didn't see anybody.</div><div class="opt" data-letter="B">B) I didn't see nobody.</div><div class="opt" data-letter="C">C) I saw anybody.</div><div class="opt" data-letter="D">D) I didn't see nothing.</div><div class="ans answer" style="display:none"><b>Дұрыс жауап: A) I didn't see anybody..</b><br>no-compound + affirmative = not + any-compound.</div></div><div class="test reviewq" data-answer="A"><div class="n">REVIEW 17</div><p class="q">She said ___ about the problem.</p><div class="opt" data-letter="A">A) nothing</div><div class="opt" data-letter="B">B) didn't nothing</div><div class="opt" data-letter="C">C) nobody</div><div class="opt" data-letter="D">D) no one</div><div class="ans answer" style="display:none"><b>Дұрыс жауап: A) nothing.</b><br>Ақпарат/нәрсе → nothing.</div></div><div class="test reviewq" data-answer="B"><div class="n">REVIEW 18</div><p class="q">___ of the two answers is correct.</p><div class="opt" data-letter="A">A) None</div><div class="opt" data-letter="B">B) Neither</div><div class="opt" data-letter="C">C) Nobody</div><div class="opt" data-letter="D">D) Nothing</div><div class="ans answer" style="display:none"><b>Дұрыс жауап: B) Neither.</b><br>Екі нұсқа → neither.</div></div><div class="test reviewq" data-answer="C"><div class="n">REVIEW 19</div><p class="q">How many of these answers are correct? — ___.</p><div class="opt" data-letter="A">A) No one</div><div class="opt" data-letter="B">B) Nobody</div><div class="opt" data-letter="C">C) None</div><div class="opt" data-letter="D">D) Nothing</div><div class="ans answer" style="display:none"><b>Дұрыс жауап: C) None.</b><br>Белгілі топтың ешқайсысы → none.</div></div><div class="test reviewq" data-answer="B"><div class="n">REVIEW 20</div><p class="q">Choose the correct question.</p><div class="opt" data-letter="A">A) Who did called you?</div><div class="opt" data-letter="B">B) Who called you?</div><div class="opt" data-letter="C">C) Whom did called you?</div><div class="opt" data-letter="D">D) Who does called you?</div><div class="ans answer" style="display:none"><b>Дұрыс жауап: B) Who called you?.</b><br>Who subject болғанда auxiliary қолданылмайды.</div></div><button class="resultBtn" id="showResult">Нәтижені көрсету</button><div class="score" id="scoreBox"></div></section></main><svg id="studyCanvas"></svg><div id="notesPanel"><b>NOTES</b><textarea id="notesArea" placeholder="Сабақ бойынша жазба..."></textarea></div><div id="studyTools"><button data-tool="pen" title="Pen">✎</button><button data-tool="marker" title="Marker">▰</button><button data-tool="eraser" title="Eraser">⌫</button><button id="undoTool" title="Undo">↶</button><button id="clearTool" title="Clear">×</button><button id="notesTool" title="Notes">N</button></div><script>
+document.querySelectorAll(".reviewq .opt").forEach(o=>o.onclick=()=>{const q=o.closest(".reviewq");q.querySelectorAll(".opt").forEach(x=>x.classList.remove("selected"));o.classList.add("selected")});
+document.getElementById("showResult").onclick=()=>{const qs=[...document.querySelectorAll(".reviewq")];let score=0,empty=0;qs.forEach(q=>{const sel=q.querySelector(".selected"),right=q.querySelector(`[data-letter="${q.dataset.answer}"]`);q.querySelectorAll(".opt").forEach(x=>x.classList.remove("correct","wrong"));right.classList.add("correct");if(!sel)empty++;else if(sel.dataset.letter===q.dataset.answer)score++;else sel.classList.add("wrong");q.querySelector(".answer").style.display="block"});const b=document.getElementById("scoreBox");b.classList.add("show");b.textContent=`Нәтиже: ${score} / ${qs.length}`+(empty?` · Жауап берілмеген: ${empty}`:"");b.scrollIntoView({behavior:"smooth",block:"center"})};
+const svg=document.getElementById("studyCanvas"),bar=document.getElementById("studyTools");
+let tool=null,drawing=false,path=null,hist=[],lockedY=0,lockedX=0,guard=false;
+function size(){svg.setAttribute("width",Math.max(document.documentElement.scrollWidth,innerWidth));svg.setAttribute("height",Math.max(document.documentElement.scrollHeight,innerHeight))}
+size();addEventListener("resize",size);new ResizeObserver(size).observe(document.body);
+function block(e){if(tool){e.preventDefault();e.stopPropagation()}}
+function hold(){if(!tool||guard)return;let y=scrollY||0,x=scrollX||0;if(Math.abs(y-lockedY)>1||Math.abs(x-lockedX)>1){guard=true;scrollTo(lockedX,lockedY);requestAnimationFrame(()=>guard=false)}}
+function lock(){lockedY=scrollY||0;lockedX=scrollX||0;document.documentElement.classList.add("study-lock");document.body.classList.add("study-lock");document.addEventListener("touchmove",block,{passive:false,capture:true});document.addEventListener("gesturestart",block,{passive:false,capture:true});document.addEventListener("gesturechange",block,{passive:false,capture:true});addEventListener("scroll",hold,{passive:true})}
+function unlock(){document.removeEventListener("touchmove",block,{capture:true});document.removeEventListener("gesturestart",block,{capture:true});document.removeEventListener("gesturechange",block,{capture:true});removeEventListener("scroll",hold);document.documentElement.classList.remove("study-lock");document.body.classList.remove("study-lock");requestAnimationFrame(()=>scrollTo(lockedX,lockedY))}
+function setTool(t){if(tool===t){tool=null;drawing=false;path=null;unlock()}else{if(tool)unlock();tool=t;lock()}bar.querySelectorAll("[data-tool]").forEach(b=>b.classList.toggle("active",b.dataset.tool===tool));svg.style.pointerEvents=tool?"auto":"none";size()}
+bar.querySelectorAll("[data-tool]").forEach(b=>b.onclick=e=>{e.preventDefault();e.stopPropagation();setTool(b.dataset.tool)});
+const pt=e=>[e.clientX+(scrollX||0),e.clientY+(scrollY||0)];
+svg.onpointerdown=e=>{if(!tool)return;e.preventDefault();e.stopPropagation();try{svg.setPointerCapture(e.pointerId)}catch(_){}
+if(tool==="eraser"){for(const p of [...svg.querySelectorAll("path")].reverse()){const r=p.getBoundingClientRect();if(e.clientX>=r.left-25&&e.clientX<=r.right+25&&e.clientY>=r.top-25&&e.clientY<=r.bottom+25){hist.push({t:"e",n:p,next:p.nextSibling});p.remove();break}}return}
+drawing=true;const[x,y]=pt(e);path=document.createElementNS("http://www.w3.org/2000/svg","path");path.setAttribute("d",`M ${x} ${y}`);path.setAttribute("fill","none");path.setAttribute("stroke-linecap","round");path.setAttribute("stroke-linejoin","round");if(tool==="marker"){path.setAttribute("stroke","#d9b84c");path.setAttribute("stroke-width","18");path.setAttribute("opacity",".35")}else{path.setAttribute("stroke","#102b4c");path.setAttribute("stroke-width","3")}svg.appendChild(path);hist.push({t:"a",n:path})};
+svg.onpointermove=e=>{if(!drawing||!path)return;e.preventDefault();e.stopPropagation();const[x,y]=pt(e);path.setAttribute("d",path.getAttribute("d")+` L ${x} ${y}`)};
+svg.onpointerup=svg.onpointercancel=()=>{drawing=false;path=null};
+document.getElementById("undoTool").onclick=()=>{const h=hist.pop();if(!h)return;if(h.t==="a")h.n.remove();else svg.insertBefore(h.n,h.next&&h.next.parentNode===svg?h.next:null)};
+document.getElementById("clearTool").onclick=()=>{svg.querySelectorAll("path").forEach(p=>p.remove());hist=[]};
+const area=document.getElementById("notesArea"),panel=document.getElementById("notesPanel");area.value=localStorage.getItem("magist_interrogative_negative_notes")||"";area.oninput=()=>localStorage.setItem("magist_interrogative_negative_notes",area.value);document.getElementById("notesTool").onclick=()=>{if(tool)setTool(tool);panel.classList.toggle("show")};</script></body></html>
